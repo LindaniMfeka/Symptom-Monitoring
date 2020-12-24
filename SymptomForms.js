@@ -7,12 +7,12 @@ SubmitBtn.addEventListener("click", function submitBtnData(){
 	if (document.getElementById('Fever_OR_Chills2').checked == true){ Sym1 = "Fever OR Chills:\t\t\t\t Yes \n"};
 	if (document.getElementById('Cough1').checked == true){ Sym2 = "Cough:\t\t\t\t\t No \n"};
 	if (document.getElementById('Cough2').checked == true){ Sym2 = "Cough:\t\t\t\t\t Yes \n"};
-	if (document.getElementById('Sore_throat1').checked == true){ Sym3 = "Sore throat:\t\t\t\t\t No \n"};
-	if (document.getElementById('Sore_throat2').checked == true){ Sym3 = "Sore throat:\t\t\t\t\t No \n"};
+	if (document.getElementById('Sore_throat1').checked == true){ Sym3 = "Sore throat:\t\t\t\t No \n"};
+	if (document.getElementById('Sore_throat2').checked == true){ Sym3 = "Sore throat:\t\t\t\t No \n"};
 	if (document.getElementById('Shortness_of_breath1').checked == true){ Sym4 = "Shortness of breath:\t\t\t No \n"};
 	if (document.getElementById('Shortness_of_breath2').checked == true){ Sym4 = "Shortness of breath:\t\t\t Yes \n"};
-	if (document.getElementById('Body_aches1').checked == true){ Sym5 = "Body aches:\t\t\t\t\t No \n"};
-	if (document.getElementById('Body_aches2').checked == true){ Sym5 = "Body aches:\t\t\t\t\t Yes \n"};
+	if (document.getElementById('Body_aches1').checked == true){ Sym5 = "Body aches:\t\t\t\t No \n"};
+	if (document.getElementById('Body_aches2').checked == true){ Sym5 = "Body aches:\t\t\t\t Yes \n"};
 	if (document.getElementById('Redness_of_the_eyes1').checked == true){ Sym6 = "Redness of the eyes:\t\t\t No \n"};
 	if (document.getElementById('Redness_of_the_eyes2').checked == true){ Sym6 = "Redness of the eyes:\t\t\t Yes \n"};
 	if (document.getElementById('Loss_of_smell_OR_loss_of_taste1').checked == true){ Sym7 = "Loss of smell OR loss of taste:\t\t No \n"};
